@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#191835"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/bgprof"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_border"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/lgprof"
+                android:alpha="0.85"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_margin="8dp"
+                android:padding="3dp"
+                android:background="@drawable/circle"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_marginVertical="10dp"
+            android:textStyle="bold"
+            android:text="Raul Andrian"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginBottom="0dp"
+            android:text="MusikinKuy, Indonesia"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIM"
+                android:textColor="#6E67FB"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="00000031733"
+                android:textColor="#9C9898"
+                android:textSize="18sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#9C9898"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama - Kelas"
+                android:textColor="#6E67FB"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Raul Andrian - DL"
+                android:textColor="#9C9898"
+                android:textSize="18sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#9C9898"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Referensi"
+                android:textColor="#6E67FB"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Youtube : https://youtu.be/bsXaM4G4D_w?list=PLwQLA73lSe1RfjMzbRLoIkcIJBu25FnVJ"
+                android:textColor="#9C9898"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Website : https://developer.android.com/docs"
+                android:textColor="#9C9898"
+                android:textSize="18sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#9C9898"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="Nim : 00000031733"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textColor="#9C9898"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginBottom="5sp"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:text="Nama : Raul Andrian"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textColor="#9C9898"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginBottom="5sp"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:text="Kelas : DL"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textColor="#9C9898"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginBottom="5sp"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:text="Referensi"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textColor="#9C9898"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginBottom="5sp"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:text="Youtube : https://youtu.be/bsXaM4G4D_w?list=PLwQLA73lSe1RfjMzbRLoIkcIJBu25FnVJ"-->
+<!--            android:textSize="17sp"-->
+<!--            android:textColor="#9C9898"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginBottom="5sp"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:text="Website : https://developer.android.com/docs"-->
+<!--            android:textSize="17sp"-->
+<!--            android:textColor="#9C9898"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginBottom="5sp"/>-->
+<!--    </LinearLayout>-->
+
+</LinearLayout>
