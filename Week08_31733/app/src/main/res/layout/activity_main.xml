@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RaulAndrian - 00000031733"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="250dp"
+        android:textSize="20dp"
+        android:textColor="#FF6200EE"/>
+
+   <Button
+       android:id="@+id/btn8a"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Week 08 A"
+       android:layout_gravity="center"
+       android:layout_marginLeft="40dp"
+       android:layout_marginRight="40dp"
+       android:layout_marginTop="20dp"
+       android:background="#FF6200EE"
+       android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btn8b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Week 08 B"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:background="#FF6200EE"
+        android:textColor="#fff"/>
+
+</LinearLayout>
